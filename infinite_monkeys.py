@@ -21,7 +21,7 @@ def load_words():
 
 def generate_sentence():
     sentence = words[random.randint(0, len(words) - 1)].lower()
-    for i in range(3):
+    for i in range(11):
         sentence += " " + words[random.randint(0, len(words) - 1)].lower()
 
     return sentence
